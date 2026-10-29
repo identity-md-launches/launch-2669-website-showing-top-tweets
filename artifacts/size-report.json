@@ -1,0 +1,261 @@
+{
+  "checkedAt": "2026-10-29T18:39:07+00:00",
+  "limitBytes": 8388608,
+  "eligibility": "New delivery files in root source/config, src/, public/, dist/, scripts/ and artifacts/. Supplied inputs and disposable test/scratch/, generated dependencies/caches are excluded.",
+  "checks": {
+    "staticHtmlAssetUrls": "all relative and present",
+    "staticCssAssetUrls": "all relative and present",
+    "requiredShareMetadata": "present with a local image",
+    "publicAssetsMatchExport": 14,
+    "dependencyOrCacheFilesIncluded": 0,
+    "archivesIncluded": 0,
+    "submoduleMarker": false
+  },
+  "sourceIndexSha256": "a06f532455c786a1df25bb86614793d48a3c095a988e0e7169959f247fd3832b",
+  "productionIndexSha256": "dc97fb63e88421c599d09febd8ba95f8a5cb1a3ad139958fa76fa937fc9bd34e",
+  "fileCount": 58,
+  "totalBytes": 1674404,
+  "remainingBytes": 6714204,
+  "byTopLevelPath": {
+    "root": 86413,
+    "artifacts": 714099,
+    "dist": 536881,
+    "public": 258580,
+    "scripts": 20959,
+    "src": 57472
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 231
+    },
+    {
+      "path": "DESIGN.md",
+      "bytes": 10713
+    },
+    {
+      "path": "README.md",
+      "bytes": 6840
+    },
+    {
+      "path": "artifacts/NOTICE.md",
+      "bytes": 1852
+    },
+    {
+      "path": "artifacts/check-results.json",
+      "bytes": 6689
+    },
+    {
+      "path": "artifacts/licenses/design-guidance.txt",
+      "bytes": 11964
+    },
+    {
+      "path": "artifacts/path-budget.md",
+      "bytes": 963
+    },
+    {
+      "path": "artifacts/screenshots/clipboard-fallback.png",
+      "bytes": 66483
+    },
+    {
+      "path": "artifacts/screenshots/desktop-1440.png",
+      "bytes": 254323
+    },
+    {
+      "path": "artifacts/screenshots/mobile-390.png",
+      "bytes": 114222
+    },
+    {
+      "path": "artifacts/screenshots/text-200-percent.webp",
+      "bytes": 231110
+    },
+    {
+      "path": "artifacts/size-report.json",
+      "bytes": 5432
+    },
+    {
+      "path": "artifacts/sources.md",
+      "bytes": 4328
+    },
+    {
+      "path": "artifacts/taste-results.json",
+      "bytes": 3983
+    },
+    {
+      "path": "artifacts/validation.md",
+      "bytes": 12750
+    },
+    {
+      "path": "dist/assets/index-DMraqml1.js",
+      "bytes": 253640
+    },
+    {
+      "path": "dist/assets/index-DNIbkIh9.css",
+      "bytes": 22773
+    },
+    {
+      "path": "dist/favicon.svg",
+      "bytes": 574
+    },
+    {
+      "path": "dist/fonts/OFL.txt",
+      "bytes": 4502
+    },
+    {
+      "path": "dist/fonts/dm-sans-latin.woff2",
+      "bytes": 36932
+    },
+    {
+      "path": "dist/images/ai-pepe.webp",
+      "bytes": 58326
+    },
+    {
+      "path": "dist/images/avatar-0xfinne.jpg",
+      "bytes": 9080
+    },
+    {
+      "path": "dist/images/avatar-0xminion.jpg",
+      "bytes": 9428
+    },
+    {
+      "path": "dist/images/avatar-damian_et.jpg",
+      "bytes": 7084
+    },
+    {
+      "path": "dist/images/avatar-imdradar.jpg",
+      "bytes": 15005
+    },
+    {
+      "path": "dist/images/avatar-surfcoderepeat.jpg",
+      "bytes": 11346
+    },
+    {
+      "path": "dist/images/avatar-taylor_.jpg",
+      "bytes": 23107
+    },
+    {
+      "path": "dist/images/og-pond.jpg",
+      "bytes": 80140
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 1888
+    },
+    {
+      "path": "dist/licenses/lucide.txt",
+      "bytes": 880
+    },
+    {
+      "path": "dist/licenses/react-dom.txt",
+      "bytes": 1088
+    },
+    {
+      "path": "dist/licenses/react.txt",
+      "bytes": 1088
+    },
+    {
+      "path": "index.html",
+      "bytes": 1789
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 65338
+    },
+    {
+      "path": "package.json",
+      "bytes": 754
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 574
+    },
+    {
+      "path": "public/fonts/OFL.txt",
+      "bytes": 4502
+    },
+    {
+      "path": "public/fonts/dm-sans-latin.woff2",
+      "bytes": 36932
+    },
+    {
+      "path": "public/images/ai-pepe.webp",
+      "bytes": 58326
+    },
+    {
+      "path": "public/images/avatar-0xfinne.jpg",
+      "bytes": 9080
+    },
+    {
+      "path": "public/images/avatar-0xminion.jpg",
+      "bytes": 9428
+    },
+    {
+      "path": "public/images/avatar-damian_et.jpg",
+      "bytes": 7084
+    },
+    {
+      "path": "public/images/avatar-imdradar.jpg",
+      "bytes": 15005
+    },
+    {
+      "path": "public/images/avatar-surfcoderepeat.jpg",
+      "bytes": 11346
+    },
+    {
+      "path": "public/images/avatar-taylor_.jpg",
+      "bytes": 23107
+    },
+    {
+      "path": "public/images/og-pond.jpg",
+      "bytes": 80140
+    },
+    {
+      "path": "public/licenses/lucide.txt",
+      "bytes": 880
+    },
+    {
+      "path": "public/licenses/react-dom.txt",
+      "bytes": 1088
+    },
+    {
+      "path": "public/licenses/react.txt",
+      "bytes": 1088
+    },
+    {
+      "path": "scripts/validate.mjs",
+      "bytes": 20959
+    },
+    {
+      "path": "src/App.tsx",
+      "bytes": 17905
+    },
+    {
+      "path": "src/components/TweetCard.tsx",
+      "bytes": 3651
+    },
+    {
+      "path": "src/data/index.ts",
+      "bytes": 2159
+    },
+    {
+      "path": "src/data/tweets.json",
+      "bytes": 7461
+    },
+    {
+      "path": "src/main.tsx",
+      "bytes": 225
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 26071
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 552
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 196
+    }
+  ]
+}

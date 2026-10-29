@@ -1,0 +1,13 @@
+# Explicit path budget and rationale: artifacts/path-budget.md.
+!/dist/
+!/dist/**
+!/artifacts/
+!/artifacts/**
+**/node_modules/
+**/.vite/
+**/.cache/
+**/coverage/
+**/playwright-report/
+**/test-results/
+**/*.tsbuildinfo
+test/scratch/

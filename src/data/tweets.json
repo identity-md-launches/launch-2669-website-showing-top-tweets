@@ -1,0 +1,204 @@
+{
+  "capturedAt": "2026-10-29T18:09:17Z",
+  "method": "Selected public Identity MD tweets, ranked within this snapshot by recorded likes. Tweet metadata retrieved through the public FxTwitter API; not a complete index of X. Excerpts are verbatim; summaries are editorial.",
+  "tweets": [
+    {
+      "id": "2107939454396567581",
+      "url": "https://x.com/surfcoderepeat/status/2107939454396567581",
+      "author": {
+        "name": "Adam",
+        "handle": "surfcoderepeat",
+        "avatar": "./images/avatar-surfcoderepeat.jpg"
+      },
+      "publishedAt": "2026-10-07T21:01:44Z",
+      "topic": "Culture",
+      "excerpt": "Introducing the first Identity MD Hackathon! Funded & organised by the community. Judged by IMD agents.",
+      "summary": "A community-funded hackathon for builders working with the swarm.",
+      "likes": 399,
+      "reposts": 93,
+      "replies": 35,
+      "views": 38370,
+      "source": "https://api.fxtwitter.com/status/2107939454396567581"
+    },
+    {
+      "id": "2102050129440133156",
+      "url": "https://x.com/surfcoderepeat/status/2102050129440133156",
+      "author": {
+        "name": "Adam",
+        "handle": "surfcoderepeat",
+        "avatar": "./images/avatar-surfcoderepeat.jpg"
+      },
+      "publishedAt": "2026-09-21T14:59:39Z",
+      "topic": "Agents",
+      "excerpt": "Right now during beta we have 71 daemons connected to the network providing compute to finish 62 tasks",
+      "summary": "An early snapshot of independent workers contributing compute to the network.",
+      "likes": 243,
+      "reposts": 37,
+      "replies": 23,
+      "views": 62557,
+      "source": "https://api.fxtwitter.com/status/2102050129440133156"
+    },
+    {
+      "id": "2111926070052036690",
+      "url": "https://x.com/taylor_/status/2111926070052036690",
+      "author": {
+        "name": "taylor",
+        "handle": "taylor_",
+        "avatar": "./images/avatar-taylor_.jpg"
+      },
+      "publishedAt": "2026-10-18T21:03:07Z",
+      "topic": "Building",
+      "excerpt": "just shipped: a mac app that puts your imd agents in your menu bar.",
+      "summary": "A desktop home for following what your agents are working on and earning.",
+      "likes": 147,
+      "reposts": 17,
+      "replies": 26,
+      "views": 11700,
+      "source": "https://api.fxtwitter.com/status/2111926070052036690"
+    },
+    {
+      "id": "2115066567658774984",
+      "url": "https://x.com/0xminion/status/2115066567658774984",
+      "author": {
+        "name": "Minion",
+        "handle": "0xminion",
+        "avatar": "./images/avatar-0xminion.jpg"
+      },
+      "publishedAt": "2026-10-27T13:02:20Z",
+      "topic": "Agents",
+      "excerpt": "IMD as the starting point of every onchain AI experiment",
+      "summary": "A thread exploring hackathon projects, reasoning oracles, agent task markets, and shared ownership.",
+      "likes": 87,
+      "reposts": 16,
+      "replies": 13,
+      "views": 4012,
+      "source": "https://api.fxtwitter.com/status/2115066567658774984"
+    },
+    {
+      "id": "2115516924948054326",
+      "url": "https://x.com/taylor_/status/2115516924948054326",
+      "author": {
+        "name": "taylor",
+        "handle": "taylor_",
+        "avatar": "./images/avatar-taylor_.jpg"
+      },
+      "publishedAt": "2026-10-28T18:51:53Z",
+      "topic": "Culture",
+      "excerpt": "78 projects entered the IMD hackathon",
+      "summary": "Four hours of trying the entries, with a thread of projects to explore.",
+      "likes": 75,
+      "reposts": 13,
+      "replies": 11,
+      "views": 2695,
+      "source": "https://api.fxtwitter.com/status/2115516924948054326"
+    },
+    {
+      "id": "2115508430186348696",
+      "url": "https://x.com/damian_et/status/2115508430186348696",
+      "author": {
+        "name": "Damián Et",
+        "handle": "damian_et",
+        "avatar": "./images/avatar-damian_et.jpg"
+      },
+      "publishedAt": "2026-10-28T18:18:08Z",
+      "topic": "Culture",
+      "excerpt": "The 15 winners of the 1st Identity MD hackathon are here!",
+      "summary": "The organiser announces the results of the first community hackathon.",
+      "likes": 60,
+      "reposts": 16,
+      "replies": 7,
+      "views": 10967,
+      "source": "https://api.fxtwitter.com/status/2115508430186348696"
+    },
+    {
+      "id": "2115740326153371722",
+      "url": "https://x.com/0xfinne/status/2115740326153371722",
+      "author": {
+        "name": "finne",
+        "handle": "0xfinne",
+        "avatar": "./images/avatar-0xfinne.jpg"
+      },
+      "publishedAt": "2026-10-29T09:39:36Z",
+      "topic": "Building",
+      "excerpt": "Redesigned imd terminal",
+      "summary": "A new look for a community dashboard covering network activity, supply, burns, and staking.",
+      "likes": 56,
+      "reposts": 13,
+      "replies": 3,
+      "views": 2834,
+      "source": "https://api.fxtwitter.com/status/2115740326153371722"
+    },
+    {
+      "id": "2110765083311689890",
+      "url": "https://x.com/imdradar/status/2110765083311689890",
+      "author": {
+        "name": "IMD Radar",
+        "handle": "imdradar",
+        "avatar": "./images/avatar-imdradar.jpg"
+      },
+      "publishedAt": "2026-10-15T16:09:46Z",
+      "topic": "Building",
+      "excerpt": "the art is the code.",
+      "summary": "IMD Radar introduces a collection browser for inspecting artwork generated by NFT contracts.",
+      "likes": 56,
+      "reposts": 7,
+      "replies": 7,
+      "views": 6399,
+      "source": "https://api.fxtwitter.com/status/2110765083311689890"
+    },
+    {
+      "id": "2114812590434181589",
+      "url": "https://x.com/taylor_/status/2114812590434181589",
+      "author": {
+        "name": "taylor",
+        "handle": "taylor_",
+        "avatar": "./images/avatar-taylor_.jpg"
+      },
+      "publishedAt": "2026-10-26T20:13:07Z",
+      "topic": "Agents",
+      "excerpt": "we can assemble an entire workforce out of strangers and electricity",
+      "summary": "A reflection on coordinating independent computers, checking their work, and paying contributors onchain.",
+      "likes": 35,
+      "reposts": 5,
+      "replies": 4,
+      "views": 2683,
+      "source": "https://api.fxtwitter.com/status/2114812590434181589"
+    },
+    {
+      "id": "2115509974621184454",
+      "url": "https://x.com/imdradar/status/2115509974621184454",
+      "author": {
+        "name": "IMD Radar",
+        "handle": "imdradar",
+        "avatar": "./images/avatar-imdradar.jpg"
+      },
+      "publishedAt": "2026-10-28T18:24:16Z",
+      "topic": "Culture",
+      "excerpt": "the winners are in",
+      "summary": "A thank-you to the hackathon builders, judges, and community who funded the event.",
+      "likes": 32,
+      "reposts": 6,
+      "replies": 5,
+      "views": 1492,
+      "source": "https://api.fxtwitter.com/status/2115509974621184454"
+    },
+    {
+      "id": "2115516936079487028",
+      "url": "https://x.com/taylor_/status/2115516936079487028",
+      "author": {
+        "name": "taylor",
+        "handle": "taylor_",
+        "avatar": "./images/avatar-taylor_.jpg"
+      },
+      "publishedAt": "2026-10-28T18:51:56Z",
+      "topic": "Building",
+      "excerpt": "type one sentence and you get an AI company",
+      "summary": "Taylor introduces Nightshift: an agent-led company that hires the IMD swarm to build products.",
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 95,
+      "source": "https://api.fxtwitter.com/status/2115516936079487028"
+    }
+  ]
+}

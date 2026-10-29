@@ -1,0 +1,231 @@
+{
+  "recordedAt": "2026-10-29T18:31:31.044Z",
+  "export": "dist/ served under /preview/",
+  "snapshotCapturedAt": "2026-10-29T18:09:17Z",
+  "summary": {
+    "passedScenarios": 18,
+    "failedScenarios": 0,
+    "completed": true
+  },
+  "scenarios": [
+    {
+      "name": "Production export loads under a static subpath",
+      "passed": true,
+      "detail": "11 real tweet cards, local font and all images loaded"
+    },
+    {
+      "name": "Every Read tweet opens its unique original X status",
+      "passed": true,
+      "detail": "11 valid status URLs; first Read tweet actually opens the correct new tab with the external response stubbed"
+    },
+    {
+      "name": "Ranking controls sort real metadata",
+      "passed": true,
+      "detail": "likes, date, reposts, and views produce the expected leaders"
+    },
+    {
+      "name": "Search, date and topic filters combine and recover",
+      "passed": true,
+      "detail": "author search, month, combined filters, empty state and Clear filters"
+    },
+    {
+      "name": "Bookmarks persist and saved navigation survives reload",
+      "passed": true,
+      "detail": "empty state, save, direct #saved route, persistence, unsave"
+    },
+    {
+      "name": "Copy tweet uses the original permalink",
+      "passed": true,
+      "detail": "actual clipboard content checked"
+    },
+    {
+      "name": "About dialog excludes background focus and restores its trigger",
+      "passed": true,
+      "detail": "native modal Tab cycles, Escape closes, focused trigger restored; axe has zero violations"
+    },
+    {
+      "name": "Keyboard path includes skip link, search shortcut and Escape recovery",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Automated accessibility audit",
+      "passed": true,
+      "detail": "zero WCAG A/AA findings in default desktop feed and About dialog"
+    },
+    {
+      "name": "390 mobile first screen and primary interactions",
+      "passed": true,
+      "detail": "first tweet starts at 553px; main action and search visible"
+    },
+    {
+      "name": "Responsive reflow",
+      "passed": true,
+      "detail": "no document overflow at 13 widths from 320 to 1920, including breakpoint boundaries"
+    },
+    {
+      "name": "200% root text enlargement",
+      "passed": true,
+      "detail": "reflow and search work; this is not browser-native zoom"
+    },
+    {
+      "name": "RTL mirror stress check",
+      "passed": true,
+      "detail": "no horizontal overflow in the desktop mirror; English remains the supported language"
+    },
+    {
+      "name": "Reduced motion and forced colors",
+      "passed": true,
+      "detail": "no ongoing animations or button transitions with reduced motion"
+    },
+    {
+      "name": "Clipboard and storage failure recovery",
+      "passed": true,
+      "detail": "manual-copy dialog gives correct URL; blocked storage is labelled as session-only"
+    },
+    {
+      "name": "Static feed works with external services blocked",
+      "passed": true,
+      "detail": "zero remote requests for site, search, filters, fonts or images; outbound X links need internet"
+    },
+    {
+      "name": "Rendered solid token contrast measured",
+      "passed": true,
+      "detail": "body on page: 16.63:1; muted on card: 6.8:1; muted on raised: 6.36:1; primary button: 14.95:1; focus on page: 14.95:1; focus on card: 14.12:1; focus on selected: 10.86:1"
+    },
+    {
+      "name": "Runtime console and resources",
+      "passed": true,
+      "detail": "zero captured script errors, failed resources, HTTP errors or remote requests"
+    }
+  ],
+  "mobileFirstScreen": {
+    "title": {
+      "top": 141.640625,
+      "bottom": 196.359375,
+      "left": 41,
+      "right": 203.28125
+    },
+    "action": {
+      "top": 258.359375,
+      "bottom": 296.359375,
+      "left": 41,
+      "right": 172
+    },
+    "search": {
+      "top": 418,
+      "bottom": 462,
+      "left": 58,
+      "right": 251
+    },
+    "firstTweet": {
+      "top": 553,
+      "bottom": 857.5625,
+      "left": 20,
+      "right": 370
+    },
+    "firstReadLink": {
+      "top": 800.5625,
+      "bottom": 840.5625,
+      "left": 268,
+      "right": 353
+    },
+    "viewportHeight": 844
+  },
+  "modalFocusStops": [
+    {
+      "insideDialog": true,
+      "browserChrome": false,
+      "tag": "A"
+    },
+    {
+      "insideDialog": false,
+      "browserChrome": true,
+      "tag": "BODY"
+    },
+    {
+      "insideDialog": true,
+      "browserChrome": false,
+      "tag": "BUTTON"
+    },
+    {
+      "insideDialog": true,
+      "browserChrome": false,
+      "tag": "A"
+    }
+  ],
+  "accessibility": [
+    {
+      "state": "About dialog",
+      "violations": 0
+    },
+    {
+      "state": "Default desktop feed",
+      "violations": 0
+    },
+    {
+      "state": "390 mobile feed",
+      "violations": 0
+    }
+  ],
+  "contrast": [
+    {
+      "name": "body on page",
+      "foreground": "rgb(237, 243, 233)",
+      "background": "rgb(9, 20, 14)",
+      "ratio": 16.63
+    },
+    {
+      "name": "muted on card",
+      "foreground": "rgb(142, 166, 150)",
+      "background": "rgb(13, 27, 19)",
+      "ratio": 6.8
+    },
+    {
+      "name": "muted on raised",
+      "foreground": "rgb(142, 166, 150)",
+      "background": "rgb(17, 34, 24)",
+      "ratio": 6.36
+    },
+    {
+      "name": "primary button",
+      "foreground": "rgb(9, 20, 14)",
+      "background": "rgb(197, 245, 121)",
+      "ratio": 14.95
+    },
+    {
+      "name": "focus on page",
+      "foreground": "rgb(197, 245, 121)",
+      "background": "rgb(9, 20, 14)",
+      "ratio": 14.95
+    },
+    {
+      "name": "focus on card",
+      "foreground": "rgb(197, 245, 121)",
+      "background": "rgb(13, 27, 19)",
+      "ratio": 14.12
+    },
+    {
+      "name": "focus on selected",
+      "foreground": "rgb(197, 245, 121)",
+      "background": "rgb(25, 51, 35)",
+      "ratio": 10.86
+    }
+  ],
+  "consoleAndResourceErrors": 0,
+  "remoteRuntimeRequests": 0,
+  "browserLimitations": [
+    "WebKit was installed but could not launch because this host lacks GTK 4, GStreamer and related runtime libraries. Safari was not validated."
+  ],
+  "otherLimitations": [
+    "Remote browser tool could not reach the shell preview; local Playwright Chromium was used.",
+    "No physical-device, native browser zoom, screen-reader or 10%-speed Animations-panel session.",
+    "A dated selection of tweets, not a complete or live X ranking; external X availability and authors’ assertions are not certified."
+  ],
+  "retainedScreenshots": [
+    "artifacts/screenshots/mobile-390.png",
+    "artifacts/screenshots/desktop-1440.png",
+    "artifacts/screenshots/text-200-percent.webp",
+    "artifacts/screenshots/clipboard-fallback.png"
+  ]
+}
